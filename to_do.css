@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input,button{
+    padding: 9px;
+}
+button:hover{
+    background-color: grey;
+}
+button{
+    border: none;
+    background-color: #333;
+    color: white;
+}
+.Complete{
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-button{
+    display: flex;
+    gap: 10px;
+}
+
+.task-button button{
+    padding: 5px 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
